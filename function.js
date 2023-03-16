@@ -5,5 +5,10 @@ function firstName (name)  {
 firstName();
 
 function divisibleByTwo(x){
-    console.log(x)
+    if(x % 2 == 0){
+    return "The number " + x + " is divisible by 2 "+ ";true " 
+} else {
+    return "The number"  + x +  "is divisible by 2" + ";false " 
 }
+}
+divisibleByTwo();
